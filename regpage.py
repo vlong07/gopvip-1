@@ -9,9 +9,6 @@ from time import sleep,strftime
 import requests
 os.system("clear")
 dau="\033[1;31m[\033[1;37mvL\033[1;31m] \033[1;37m=>  "
-__check__ = requests.get('https://raw.githubusercontent.com/vlong07/vlong07/main/sever.txt').text
-if "off" in __check__:
-  exit("Buồn Của vLong")
 banner()
 class reg_pro5():
     def __init__(self,cookies, name) -> None:
